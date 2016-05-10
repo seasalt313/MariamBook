@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+	background-color: #fab87f;
+	font-family: arial;
+	font-color: #fab87f;
+}
+ nav {
+ 	background-color: #dcd1b4;
+ }
+
+
+.dropdown {
+	font-family: 'Comfortaa', bold;
+	font-style: bold;
+	font-size: 30px;
+}
+
+.navbar {
+	font-family: Times;
+	font-size: 30px:
+	background-color: #dcd1b4;
+}
+
+.navbar-header {
+	font-family: 'Comfortaa', bold;
+	font-size: 30px;
+}
+
+.navbar .navbar-default a {
+	font-color: white;
+}
+
+

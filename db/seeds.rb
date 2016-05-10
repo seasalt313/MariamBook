@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+5.times do |x|
+	User.create(username: "awesomeStudent#{x}", email: "student#{x}@gmail.com", password: "password", password_confirmation: "password")
+end
+
+p "Test users created"

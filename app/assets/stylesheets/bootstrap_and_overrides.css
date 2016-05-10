@@ -1,0 +1,63 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Static version of css will use Glyphicons sprites by default
+  =require twitter-bootstrap-static/sprites
+*/
+
+.btn {
+	background-color: #FFE9AF;
+}
+
+.btn .btn-default active {
+	background-color: red;
+
+}
+.navbar-default {
+	background-color: #F9D6AC; 
+}
+
+ .navbar-default .navbar-brand {
+	color: black;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	font-family: 'Comfortaa', cursive;
+}
+
+.dropdown-menu {
+	background-color: #8DCCAD;
+
+}
+
+.dropdown-toggle {
+	color: none;
+}
+
+p {
+	font-family: 'Comfortaa', cursive;
+
+}
+
+.jumbotron {
+		font-family: 'Comfortaa', bold;
+		background-color: #FEA6A2;
+
+}
+
+
+body {
+	font-family: 'Comfortaa', cursive;
+	font-style: bold;
+	background-color: #FFE9AF
+
+}
+
+.div {
+	font-family: 'Comfortaa', cursive;
+	font-style: bold;
+	background-color: #FFE9AF;
+
+
+}

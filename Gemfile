@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+
+gem 'public_activity'
+gem 'gravatarify', '~> 3.0.0'
 gem 'devise'
 gem 'simple_form'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'

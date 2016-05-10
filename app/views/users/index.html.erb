@@ -1,0 +1,15 @@
+<div class="jumbotron text-center">
+	<h2>Peeps!</h2>
+	<div class="btn-group" role="group" aria-label="People Groups">
+		<%= link_to "Everyone", users_path, class: "btn btn-default #{'active' unless params[:people]}" %>
+		<%= link_to "My Friends", users_path(people: "friends"), class: "btn btn-default #{'active' if params[:people] == 'friends'}" %>
+		<%= link_to "Requests", users_path(people: "friends"), class: "btn btn-default #{'active' if params[:requested] == 'friends'}" %>
+		<%= link_to "Pending", users_path(people: "friends"), class: "btn btn-default #{'active' if params[:pending] == 'friends'}" %>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<%= render @users %>
+	</div>
+</div>
