@@ -11,10 +11,17 @@ Rails.application.routes.draw do
   root 'welcome#index' 
 
   resources :friendships, only: [:create, :destroy, :accept] do
-    member do
-      put :accept
+      member do
+        put :accept
+      end
     end
-    end
+
+  resources :posts, only: [:create, :update, :destroy, :edit]
+
+  resources :activities, only: [:index]
+
+
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

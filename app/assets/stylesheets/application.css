@@ -15,8 +15,8 @@
  */
 
 body {
-	background-color: #fab87f;
-	font-family: arial;
+	background-color: #AB526B;
+	font-family: 'Comfortaa', cursive;
 	font-color: #fab87f;
 }
  nav {
@@ -25,7 +25,7 @@ body {
 
 
 .dropdown {
-	font-family: 'Comfortaa', bold;
+	font-family: 'Comfortaa', cursive;
 	font-style: bold;
 	font-size: 30px;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .navbar-header {
-	font-family: 'Comfortaa', bold;
+	font-family: 'Comfortaa', cursive;
 	font-size: 30px;
 }
 

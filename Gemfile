@@ -1,10 +1,9 @@
 source 'https://rubygems.org'
 
-
+gem 'simple_form'
 gem 'public_activity'
 gem 'gravatarify', '~> 3.0.0'
 gem 'devise'
-gem 'simple_form'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
